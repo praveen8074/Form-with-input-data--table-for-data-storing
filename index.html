@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="info">
+                <form>
+                    <label >Enter Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Text"><br>
+                    <label for="age">Enter your Age</label>
+                    <input type="number" id="age" name="age" placeholder="Type Here"><br>
+                    <label for="email">Enter Your Mail</label>
+                    <input type="email"id="email" name="email" placeholder="@gmail.com"><br>
+                    <label for="password">Enter Your Password</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Type Here"><br>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="Message" placeholder="Comment"></textarea><br>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="table-container">
+        <h2>Submitted form Data</h2>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
